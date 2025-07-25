@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(mkdir:*)",
+      "Bash(move \"frontend-developer.md\" \"development/\")",
+      "Bash(move \"mobile-developer.md\" \"development/\")",
+      "Bash(move \"golang-pro.md\" \"development/\")",
+      "Bash(move \"python-pro.md\" \"development/\")",
+      "Bash(move \"ai-engineer.md\" \"development/\")",
+      "Bash(mv:*)"
+    ],
+    "deny": []
+  }
+}
